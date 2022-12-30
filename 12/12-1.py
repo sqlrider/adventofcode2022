@@ -32,7 +32,6 @@ for y in range(0, len(puzzleinput)):
         if tmp_elev == -13:
             tmp_elev = 1
         if tmp_elev == -27:
-            end = (y,x) # Use later on in reconstructing path
             tmp_elev = 26
         nodes.append(Node(y, x, puzzleinput[y][x],tmp_elev))
 
